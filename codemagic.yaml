@@ -1,7 +1,0 @@
-workflows:
-  react_native_workflow:
-    name: React Native Workflow
-    scripts:
-      - npm install
-      - npx react-native run-android  # Pour Android
-      - npx react-native run-ios      # Pour iOS, si nécessaire
