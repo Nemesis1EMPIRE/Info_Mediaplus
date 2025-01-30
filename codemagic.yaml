@@ -5,9 +5,3 @@ workflows:
       - npm install
       - npx react-native run-android  # Pour Android
       - npx react-native run-ios      # Pour iOS, si nécessaire
-
-    android:
-      build: "release"  # Remplacez par "debug" ou "release" selon vos besoins
-
-    ios:
-      build: "release"  # Remplacez par "debug" ou "release" pour iOS
