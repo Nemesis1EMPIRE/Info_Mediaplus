@@ -2,7 +2,6 @@ workflows:
   react_native_workflow:
     name: React Native Workflow
     scripts:
-      - cd git@github.com:Nemesis1EMPIRE/reacttest.git # Remplacez par le chemin de votre projet, si nécessaire
       - npm install
       - npx react-native run-android  # Pour Android
       - npx react-native run-ios      # Pour iOS, si nécessaire
