@@ -1,0 +1,8 @@
+workflows:
+  react_native_workflow:
+    name: React Native Workflow
+    platform: android
+    android:
+      debug: true
+    ios:
+      debug: true
