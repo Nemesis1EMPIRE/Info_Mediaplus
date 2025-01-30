@@ -1,8 +1,14 @@
 workflows:
   react_native_workflow:
     name: React Native Workflow
-    platform: android
+    scripts:
+      - cd path_to_your_project  # Remplacez par le chemin de votre projet, si nécessaire
+      - npm install
+      - npx react-native run-android  # Pour Android
+      - npx react-native run-ios      # Pour iOS, si nécessaire
+
     android:
-      debug: true
+      build: "release"  # Remplacez par "debug" ou "release" selon vos besoins
+
     ios:
-      debug: true
+      build: "release"  # Remplacez par "debug" ou "release" pour iOS
